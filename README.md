@@ -20,7 +20,7 @@ The perfect project if you're learning how to interact with 3rd-party APIs. This
 ## Resources
 
 - Challange URL: [Click here](#)
-- Live Site URL: [Click here](#)
+- Live Site URL: [Click here](https://lukenso.github.io/Advice-generator-app/)
 ## Author
 
 - LinkedIn - [Luka Koridze](https://www.linkedin.com/in/luka-koridze-4397571a4/)
