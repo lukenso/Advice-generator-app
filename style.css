@@ -1,0 +1,116 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: #202733;
+    overflow-y: hidden;
+}
+
+.container{
+    background: #313A48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    border-radius: 10px;
+    width: 343px;
+    height: 315px;
+    margin-top: 120px;
+    margin-left: 16px;
+}
+
+#advice-div h1{
+    color: #53FFAA;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 15.03px;
+    letter-spacing: 3.46px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#answer-div h2{
+    color: #CEE3E9;
+    width: 295px;
+    height: 132px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32.78px;
+    letter-spacing: -0.26px;
+    text-align: center;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+#answer-div h2 span{
+    width: 295px;
+    height: 132px;
+}
+
+.line{
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.line-image-desktop{
+    display: none;
+}
+
+#button{
+    width: 64px;
+    height: 64px;
+    background: #53FFAA;
+    border-style: none;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 139px;
+}
+
+.dice{
+    margin: 14px;
+}
+
+@media screen and (min-width: 1440px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .container{
+        width: 540px;
+        height: 332px;
+        border-radius: 15px;
+    }
+
+    #advice-div h1{
+        margin-top: 8px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 17.76px;
+        letter-spacing: 4.09px;
+    }
+
+    #answer-div h2{
+        width: 444px;
+        height: 114px;
+        font-size: 28px;
+        margin-left: 48px;
+    }
+
+    .line-image{
+        display: none;
+    }
+
+    .line-image-desktop{
+        display: block;
+        margin-left: 24px;
+    }
+
+    #button{
+        margin-left: 238px;
+        margin-top: 47px;
+    }
+
+    #button:hover{
+        cursor: pointer;
+        background: #53FFAA;
+        box-shadow: 0px 0px 40px #53FFAA;   
+    }
+}
