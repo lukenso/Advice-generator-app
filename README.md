@@ -13,7 +13,7 @@ The perfect project if you're learning how to interact with 3rd-party APIs. This
 - Javascript
 - API
 
-## Designed for ony two devices 
+## Designed for only two devices 
 - Mobile (375px)
 - Desktop(1440px)
 
